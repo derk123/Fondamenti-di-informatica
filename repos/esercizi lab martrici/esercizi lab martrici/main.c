@@ -286,7 +286,7 @@ int main() {
 /* int main() {
 	int a;
 	int som = 0, med = 0;
-	for (int i = 0; i < 1000; i++) {
+	for (int i = 0;; i++) {	// continua per sempre
 		printf("elemento : %d", i + 1);
 
 		scanf("%d", &a);
@@ -309,20 +309,20 @@ int main() {
 	int som = 0;
 	int prod = 1;
 
-	for (int i = 0; i < 2000; i++) {
+	for (int i = 0; som > 1000; i++) {
 		printf("elemento %d", i + 1);
 		scanf("%d", &a);
 
 		som += a;
 		prod *= a;
-		if (som > 1000) {
-			//prod = prod * a;
-			break;
-		}
+
 	}
 
 	printf("la somma est :%d\nil prodotto est:%d", som, prod);
 }*/
+
+// 4.14
+
 #define N 5
 int main() {
 	int b[N] = {0};
