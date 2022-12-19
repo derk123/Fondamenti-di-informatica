@@ -1,0 +1,5 @@
+﻿  Origine.c
+C:\Users\dazoy\source\repos\Project5\Project5\Origine.c(25,12): warning C4473: 'printf_s': sono stati passati argomenti insufficienti per la stringa di formato
+C:\Users\dazoy\source\repos\Project5\Project5\Origine.c(25,12): message : con i segnaposto e i relativi parametri sono previsti argomenti variadic 3, ma sono stati specificati quelli 1
+C:\Users\dazoy\source\repos\Project5\Project5\Origine.c(25,12): message : l'argomento variadic mancante 2 è richiesto dalla stringa di formato '%d'
+  Project5.vcxproj -> C:\Users\dazoy\source\repos\Project5\Debug\Project5.exe

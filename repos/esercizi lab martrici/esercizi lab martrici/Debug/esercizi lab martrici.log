@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\dazoy\source\repos\esercizi lab martrici\esercizi lab martrici\main.c(158,6): warning C4101: 'B': variabile locale senza riferimenti
+C:\Users\dazoy\source\repos\esercizi lab martrici\esercizi lab martrici\main.c(161,12): warning C4101: 'cpt': variabile locale senza riferimenti
+C:\Users\dazoy\source\repos\esercizi lab martrici\esercizi lab martrici\main.c(161,6): warning C4101: 'i': variabile locale senza riferimenti
+  esercizi lab martrici.vcxproj -> C:\Users\dazoy\source\repos\esercizi lab martrici\Debug\esercizi lab martrici.exe

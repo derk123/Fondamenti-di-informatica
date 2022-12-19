@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\dazoy\source\repos\esercizi_falso\esercizi_falso\main.c(7,14): warning C4101: 'a': variabile locale senza riferimenti
+  esercizi_falso.vcxproj -> C:\Users\dazoy\source\repos\esercizi_falso\Debug\esercizi_falso.exe

@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\dazoy\source\repos\Project6\Project6\main.c(34,58): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+C:\Users\dazoy\source\repos\Project6\Project6\main.c(35,17): warning C4144: '>': espressione relazionale come espressione switch
+  Project6.vcxproj -> C:\Users\dazoy\source\repos\Project6\Debug\Project6.exe

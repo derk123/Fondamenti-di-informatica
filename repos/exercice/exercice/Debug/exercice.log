@@ -1,0 +1,2 @@
+﻿Origine.obj : error LNK2005: _main già definito in execice.obj
+C:\Users\dazoy\source\repos\exercice\Debug\exercice.exe : fatal error LNK1169: rilevato uno o più simboli definiti più volte
