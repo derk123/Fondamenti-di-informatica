@@ -321,7 +321,7 @@ int main() {
 	printf("la somma est :%d\nil prodotto est:%d", som, prod);
 }*/
 
-// 4.14
+// 5.4
 
 #define N 5
 int main() {
