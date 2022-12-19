@@ -321,49 +321,41 @@ int main() {
 	printf("la somma est :%d\nil prodotto est:%d", som, prod);
 }*/
 
-// 5.4
+// 4.14
+#include <stdio.h>
+#include <stdlib.h>
 
 #define N 5
 int main() {
 	int b[N] = {0};
 	int a[N];
-	int c[N] = {0};
 	int num_con_uguali = 0;
 	int num_con_non_uguali = 0;
-	int j=0, k=0;
+	int j=0;
 
 	for (int i = 0; i < N; i++) {
 		printf("elementi %d: ", i + 1);
-		scanf_s("%d", &a[i]);
+        fflush(stdout);
+		scanf("%d", &a[i]);
 
-		if (i != 0) {
-			if (a[i] == a[i - 1]+1) {
-				num_con_uguali++;
-				b[j] = a[i-1];
-				j++;
-				
-			}
-			else
-			if ((a[i] - a[i - 1]) != 1) {
-				num_con_non_uguali++;
-				c[k] = a[i];
-				k++;
-				
-			}
+	if(i!=0){
+		if (a[i] == a[i - 1]+1 || a[i] == a[i - 1] - 1 ) {
+			num_con_uguali++;
+			b[j] = a[i-1];
+			j++;
+			
 		}
+	}
+		
 
 
 	}
 
-	printf("numeri consecutivi uguali sono :%d\ni numeri consecutivi non uguali sono %d:", num_con_uguali, num_con_non_uguali);
+	printf("numeri consecutivi uguali sono :%d\ni numeri consecutivi non uguali sono %d", num_con_uguali, N-2*num_con_uguali);
 	printf("\n");
 	for(int i=0;i<j;i++){
 		printf("%d", b[i]);
-		print("\n");
+		printf("\n");
 
-	}
-	for (int i = 0; i < k; i++) {
-		printf("%d", c[i]);
-		print("\n");
 	}
 }
