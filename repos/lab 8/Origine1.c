@@ -9,7 +9,7 @@ int main(void) {
 	int total_trouve = 0;
 
 	printf("entra gli elementi della matrice di ordine (%d, %d)", N, M);
-	
+
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < M; j++) {
 			scanf("%d", &a[i][j]);
@@ -23,8 +23,8 @@ int main(void) {
 				trouve = 1;
 			total_trouve++;
 		}
-		if(total_trouve>=3)
-		printf("la sequenza e' alla riga di indice %d ed e' lunga %d", i, total_trouve);
+		if (total_trouve >= 3)
+			printf("la sequenza e' alla riga di indice %d ed e' lunga %d", i, total_trouve);
 		prinrf("\n");
 		trouve = 0;
 	}
