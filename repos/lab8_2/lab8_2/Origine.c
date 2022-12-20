@@ -16,8 +16,13 @@ int main(void) {
 
 	printf("metti gli elementi da cercare cosi(elemnti,altro da cercare)\n");
 	scanf("(%d,%d)", &b, &c);
-	printf("entra gli elementi della matrice di ordine (%d, %d)\n", N, M);
+	if (c > 5) {
+		printf("errore di sequenza");
+		return -1;
+	}
 
+	printf("entra gli elementi della matrice di ordine (%d, %d)\n", N, M);
+	
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < M; j++) {
 			scanf("%d", &a[i][j]);
@@ -28,32 +33,38 @@ int main(void) {
 		total_trouve = 0;
 		flag1 = 0;
 		for (int j = 0; j < M; j++) {
-			
-			if (a[i][j] == b){
+
+		if(j!=0){
+			if (  (a[i][j]==b && a[i][j-1]==a[i][j])){
 				trouve = 1;
 			total_trouve++;
 			}
-			if (i == 0) {
+		  }
+			/*if (i == 0) {
 				if ((a[i][j]) == (a[i][j - 1])) {
 					b = a[i][j];
 					flag = 1;
 					flag1++;
 				}
 
-			}
+			}*/
 
 			
 		}
+		total_trouve += 1;
 
-		if (total_trouve >= c || total_trouve ==c){
+		if (total_trouve >= c){
 			printf("la sequenza e' alla riga di indice %d ed e' lunga %d", i, total_trouve);
 
 		}
+		
 
 		printf("\n");
 		flag = 0;
 		trouve = 0;
 	}
+	
+  
 
 	for (int j = 0; j < M; j++) {
 		total_trouve1 = 0;
