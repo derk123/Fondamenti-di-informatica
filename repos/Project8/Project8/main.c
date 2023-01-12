@@ -1,8 +1,9 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
-/*int main(void) {
-
+/* int main(void) {
+   
     int N;
     printf("\nInserisci N: ");
     scanf("%d", &N);
@@ -45,9 +46,9 @@
     getchar();
     return EXIT_SUCCESS;
 
-}*/
+} */
 
-/*int main() {
+int main() {
 
     int N;
     printf("\ninserischi N:");
@@ -101,10 +102,10 @@
     getchar();
     getchar();
     getchar();
-}*/
+}
 
 
-
+/*
     int main() {
         int a, b, c;
         
@@ -136,4 +137,4 @@
         getchar();
         getchar();
         getchar();
-    }
+    }*/
